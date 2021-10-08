@@ -1,31 +1,33 @@
 .container1 {
     margin-top: 10%;
-    margin-left: 27%;
+    margin-left: 20%;
 }
 .pg1-head1 {
-    font-size: xxx-large;
+    font-size: 60px;
     font-weight: 600;
     font-family:Arial, Helvetica, sans-serif;
+    margin-left: 20px;
 }
 .pg1-head2 {
-    font-size: xxx-large;
-    font-family:Arial, Helvetica, sans-serif;
+    font-size:60px;
     font-weight:100;
-    color: #707070;
-    margin-right: 230px;
+    color:gray;
+    margin-right: 330px;
+    font-family:"Roboto";
 }
 .pg1-head3 {
-    font-size: xx-large;
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight:10;
+    font-size: 35px;
+    font-family:"Roboto";
     color: #707070;
+    
+
 }
 .head {
     margin-bottom: 10px;
 }
 .pg1-btn {
     border-radius: 50%;
-    background: coral;
+    background: rgb(243, 67, 3);
     height: 50px;
     width: 50px;
     text-decoration: none;
@@ -40,25 +42,24 @@
     text-decoration: none;
 
 }
-.pg1-boxes {
+.pg1-cards {
     display: inline-block;
     margin-top: 10px;
-
-    
 }
-.box {
+.card {
     display:inline-block;
     border: 1px lightcoral solid;
-    height: 260px;
-    width: 200px; 
+    height: 350px;
+    width: 229px; 
     border-radius: 10px;
-    margin: 10px;
+    margin: 30px;
     box-shadow: 10px 10px 10px 0 rgba(148, 143, 143, 0.979) ;
+    font-family: sans-serif;
     
 }
 .boxhead {
     color: lightcoral;
-    font-size: x-large;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     border-bottom: 2px gray groove;
     padding-bottom: 15px;
@@ -67,30 +68,33 @@
 .boxtask {
     text-decoration: line-through;
     color:red;
-    font-weight: 500;
+    font-weight: 700;
     text-align: center;
-    font-size: large;
-    text-decoration-thickness: 2px;
+    font-size: 23px;
+    text-decoration-thickness: 3px;
+}
+.pg1-checkbox {
+    font-size: 20px;
 }
 
 
 /* INDEX 2 CSS PART */
 
 .container2 {
-    margin-left: 37%;
-    margin-top: -6%;
+    margin-left: 34%;
+    margin-top: -3%;
 
 }
 
 .pg2-heading {
     
-    font-size: xxx-large;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 900;
+    font-size: 65px;
+    font-family:sans-serif;
+    font-weight: 750;
     position: relative;
     text-align: center;
     margin: 100px auto;
-    max-width: 650px;
+    max-width: 700px;
 }
 .pg2-heading:before {
     content: "";
@@ -117,12 +121,12 @@
 .pg2-link {
     font-size: x-large;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 44px 0px 39px 136px;
+    margin: 44px 0px 70px 136px;
     
 }
 .pg2-icon {
-    color: coral;
-    margin-right: 3px;
+    color: rgb(245, 65, 0);
+    margin-right: 9px;
     font-size: 36px;
 }
 .pg2-icontext {
@@ -130,18 +134,18 @@
     font-size: 36px;
 
 }
-.pg2-box {
+.pg2-card{
 
     border: 1px lightcoral solid;
-    height: 350px;
-    width: 350px; 
+    height: 400px;
+    width: 400px; 
     border-radius: 10px;
     margin: 10px;
     box-shadow: 10px 10px 10px 0px rgba(148, 143, 143, 0.979) ;
 }
 .pg2-boxhead {
     color: lightcoral;
-    font-size: x-large;
+    font-size: 35px;
     font-family: Arial, Helvetica, sans-serif;
     border-bottom: 2px gray groove;
     padding-bottom: 17px;
@@ -150,19 +154,20 @@
 .pg2-boxtask {
     text-decoration: line-through;
     color:red;
-    text-decoration-thickness: 2px;
-    font-weight: 500;
+    text-decoration-thickness: 3px;
+    font-weight: 700;
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .checkbox {
      margin-left: 90px;
-     font-size: 20px;
+     font-size: 21px;
 }
 
 .pg2-button {
-    margin-top: 39%;
+    margin-top: 35%;
     margin-left: 82%;
 }
 
@@ -175,35 +180,37 @@ body,html {
     margin: 0;
     padding: 0;
 }
-.main {
+.pg34-card {
     border: 1px lightcoral solid;
-    height: 161px;
-    width: 300px; 
+    height: 220px;
+    width: 420px; 
     border-radius: 10px;
     text-align: center;
     box-shadow: 10px 10px 10px 0px rgba(148, 143, 143, 0.979) ;
-    color: coral; 
-    margin-left: 40%; 
+    color: rgb(233, 64, 3); 
+    margin-left: 38%; 
     margin-top: 18%;
     background:#ffffff;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
+    font-size: 25px;
     position: absolute;
+    
  } 
 .textbox {
-    color: coral;
-    height: 25px;
-    width: 210px;
+    height: 33px;
+    width: 300px;
 
 }
 .btn {
     background: coral;
-    border-radius: 15px;
+    border-radius: 22px;
     border: 0px;
     color:#ffffff;
-    height: 30px;
-    width: 64px;
+    height: 40px;
+    width: 80px;
+    font-size: 22px;
 }
+
 .blur1 {
     background-image: url(./image1.png);
     backdrop-filter: blur(8px);

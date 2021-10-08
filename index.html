@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To Do App UI Webpage</title>
     <link rel="stylesheet" href="./index.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
  
 </head>
 <body>
@@ -16,27 +20,33 @@
         <span ><a href="./index3.html" class="pg1-btn">+</a></span>
         <span class=" pg1-head3">Add List</span>
     </div>
-    <div class="pg1-boxes">
+    <div class="pg1-cards">
         
-          <div class="box box1">
+          <div class="card card1">
             <a href="./index2.html" class="pg1-link">
             <p class="boxhead">Trip to Paris</p> </a> 
             <p class="boxtask">Completed Task</p>
-            <input type="checkbox" name="task" id="task1" value="">
-            <label for="task1">Pending Task</label>
+            <div class="pg1-checkbox">
+                <input type="checkbox" name="task" id="task1" value="">
+                <label for="task1">Pending Task</label>
+            </div>
           </div>
        
-        <div class="box box2">
+        <div class="card card2">
             <p class="boxhead">My Todo List</p> 
             <p class="boxtask">Completed Task</p>
-            <input type="checkbox" name="task" id="task2" value="">
-            <label for="task2">Pending Task</label>
+            <div class="pg1-checkbox">
+                <input type="checkbox" name="task" id="task2" value="">
+                <label for="task2">Pending Task</label>
+           </div>
         </div>
-        <div class="box box3">
+        <div class="card card3">
             <p class="boxhead">My Todo List</p> 
             <p class="boxtask">Completed Task</p>
-            <input type="checkbox" name="task" id="task3" value="">
-            <label for="task3">Pending Task</label>
+            <div class="pg1-checkbox">
+               <input type="checkbox" name="task" id="task3" value="">
+               <label for="task3">Pending Task</label>
+            </div>
         </div>
     </div>
   </div>
